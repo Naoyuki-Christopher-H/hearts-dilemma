@@ -3,13 +3,15 @@
   "version": "1.0.0",
   "description": "A playful interactive love confession game with evasive buttons and rickroll surprise",
   "keywords": ["interactive", "game", "love", "rickroll", "browser"],
-  "author": "Naoyuki-Christopher-H",
+  "author": "YukiChriss",
   "license": "MIT",
   "scripts": {
+    "start": "live-server public_html --port=3000 --open",
     "deploy": "gh-pages -d public_html"
   },
   "dependencies": {
-    "gh-pages": "^6.1.0"
+    "gh-pages": "^6.1.0",
+    "live-server": "^1.2.2"
   },
   "homepage": "https://Naoyuki-Christopher-H.github.io/hearts-dilemma"
 }
