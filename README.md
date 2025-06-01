@@ -53,11 +53,6 @@ public_html/
 
 ---
 
-## 📝 Credits
-YukiChriss. (2025). *Heart's Dilemma*. Available at: [GitHub Repo](https://github.com/Naoyuki-Christopher-H/hearts-dilemma) (Accessed: 2025-06-01)
-
----
-
 ## 📜 License
 MIT © YukiChriss
 
