@@ -1,29 +1,64 @@
-# **Heart's Dilemma** 
-
-*A playful interactive "love confession" web experience with a mischievous twist.*  
-
-![Demo GIF](https://i.giphy.com/media/v1.Y2lkPTc5MGI3NjExbjJvdWZzYXc1NGJ6aGp1cDE3b2dyNnVzOGN1andkMjVrMmRzeGwwZSZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/3OhXBaoR1tVPW/giphy.gif)  
+# ❤️ Heart's Dilemma ❤️
 
 ---
 
-### **Features**  
-✅ **Evasive "No" Button**: Moves randomly on hover (80% chance)  
-✅ **Rickroll Surprise**: Clicking "Yes" reveals a playful twist  
-✅ **Minimalist Design**: Clean UI with smooth animations  
-✅ **Mobile-Friendly**: Responsive layout works on all devices  
+*A playful web game where you try to confess your love - if you can catch the buttons!*
+
+![Demo](https://i.giphy.com/media/v1.Y2lkPTc5MGI3NjExbjJvdWZzYXc1NGJ6aGp1cDE3b2dyNnVzOGN1andkMjVrMmRzeGwwZSZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/3OhXBaoR1tVPW/giphy.gif)
 
 ---
 
-### **Usage**  
-1. Clone the repo:  
+## ✨ Features
+- **Evasive "No" Button**: Playfully dodges your cursor (80% chance)
+- **Rickroll Surprise**: Clicking "Yes" reveals a special reward
+- **Minimalist Design**: Clean, responsive interface
+- **Instant Play**: No installations required
+
+---
+
+## 🚀 Quick Start
+1. Clone the repo:
    ```bash
    git clone https://github.com/Naoyuki-Christopher-H/hearts-dilemma.git
    ```
-2. Open `index.html` in any modern browser.  
+2. Install dependencies:
+   ```bash
+   npm install
+   ```
+3. Start local server:
+   ```bash
+   npm start
+   ```
+4. Open `http://localhost:3000` in your browser
 
 ---
 
-### **License**  
-MIT License. Free to use, modify, and share (attribution appreciated!).  
+## 📦 Deployment
+Deploy to GitHub Pages:
+```bash
+npm run deploy
+```
+Live demo: [https://Naoyuki-Christopher-H.github.io/hearts-dilemma](https://Naoyuki-Christopher-H.github.io/hearts-dilemma)
+
+---
+
+## 🛠️ Project Structure
+```
+public_html/
+├── index.html
+├── style.css
+├── script.js
+└── assets/
+```
+
+---
+
+## 📝 Credits
+YukiChriss. (2025). *Heart's Dilemma*. Available at: [GitHub Repo](https://github.com/Naoyuki-Christopher-H/hearts-dilemma) (Accessed: 2025-06-01)
+
+---
+
+## 📜 License
+MIT © YukiChriss
 
 ---
