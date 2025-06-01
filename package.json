@@ -1,8 +1,15 @@
 {
-    "name": "send-to-crush-project",
-    "version": "1.0.0",
-    "keywords": ["util", "functional", "server", "client", "browser"],
-    "author": "YukiChriss",
-    "contributors": [],
-    "dependencies": {}
+  "name": "hearts-dilemma",
+  "version": "1.0.0",
+  "description": "A playful interactive love confession game with evasive buttons and rickroll surprise",
+  "keywords": ["interactive", "game", "love", "rickroll", "browser"],
+  "author": "Naoyuki-Christopher-H",
+  "license": "MIT",
+  "scripts": {
+    "deploy": "gh-pages -d public_html"
+  },
+  "dependencies": {
+    "gh-pages": "^6.1.0"
+  },
+  "homepage": "https://Naoyuki-Christopher-H.github.io/hearts-dilemma"
 }
