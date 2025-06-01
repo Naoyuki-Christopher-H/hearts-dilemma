@@ -1,0 +1,114 @@
+/* Minimalist CSS with system fonts and subtle animations */
+/* Using CSS variables for consistent theming */
+:root
+{
+    --primary-color: #ff4757;
+    --secondary-color: #ffffff;
+    --text-color: #2f3542;
+    --shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    --transition: all 0.3s ease;
+}
+
+*
+{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background: #f1f2f6;
+    font-family: 'Inter', sans-serif;
+    color: var(--text-color);
+}
+
+.wrapper
+{
+    position: relative;
+    width: 100%;
+    max-width: 320px; /* More compact for minimalism */
+    padding: 2rem;
+    text-align: center;
+    background: var(--secondary-color);
+    border-radius: 12px;
+    box-shadow: var(--shadow);
+}
+
+h2
+{
+    font-size: 1.5rem; /* Smaller for minimalism */
+    font-weight: 600;
+    color: var(--primary-color);
+    margin-bottom: 1.5rem;
+    transition: var(--transition);
+}
+
+.gif-container
+{
+    margin: 0 auto;
+    width: 100%;
+    max-width: 240px; /* Constrained size */
+    height: auto;
+    overflow: hidden;
+    border-radius: 8px;
+}
+
+.gif
+{
+    width: 100%;
+    height: auto;
+    display: block;
+    transition: var(--transition);
+}
+
+.btn-group
+{
+    display: flex;
+    justify-content: center;
+    gap: 1rem; /* Modern gap property */
+    margin-top: 2rem;
+}
+
+button
+{
+    width: 100px; /* More compact */
+    height: 40px;
+    color: var(--secondary-color);
+    font-size: 1rem;
+    font-weight: 600;
+    border-radius: 20px;
+    outline: none;
+    cursor: pointer;
+    box-shadow: var(--shadow);
+    border: none;
+    transition: var(--transition);
+}
+
+button.yes-btn
+{
+    background: var(--primary-color);
+}
+
+button.yes-btn:hover
+{
+    transform: translateY(-2px);
+    box-shadow: 0 6px 8px rgba(255, 71, 87, 0.2);
+}
+
+button.no-btn
+{
+    background: var(--secondary-color);
+    color: var(--primary-color);
+    border: 1px solid var(--primary-color);
+    position: relative; /* Changed from absolute for better flow */
+}
+
+button.no-btn:hover
+{
+    background: #ffecec;
+}
